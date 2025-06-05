@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>URL Shortener</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>URL Shortener</h1>
+    <input type="text" id="longUrl" placeholder="Enter long URL" />
+    <br>
+    <button onclick="shortenURL()">Shorten</button>
+    <div class="result" id="result"></div>
+
+    <div class="info">
+        Try pasting the generated short URL back into your browser. <br>
+        (This demo works in the same session using localStorage)
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
